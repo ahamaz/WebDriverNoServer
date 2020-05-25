@@ -6,6 +6,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <artifactId>WebDriverNoServer</artifactId>
   <version>0.01</version>
   
+ 	 <properties>
+	    <maven.compiler.source>1.6</maven.compiler.source>
+	    <maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+  
     <dependencies>
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
