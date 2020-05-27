@@ -6,6 +6,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <artifactId>WebDriverNoServer</artifactId>
   <version>0.01</version>
   
+   <!-- The Basics -->
+  
  	 <properties>
 	    <maven.compiler.source>1.6</maven.compiler.source>
 	    <maven.compiler.target>1.6</maven.compiler.target>
@@ -26,7 +28,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   			<artifactId>maven-compiler-plugin</artifactId>
   			<version>3.6.1</version>
   			<configuration>
-  			<!-- The Basics 
+  			<!-- 
   				<source>1.8</source>
   				<target>1.8</target>
   			-->
